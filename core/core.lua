@@ -1,4 +1,6 @@
 return function (script)
+
+require("core/StatShine/StatShine")
 local path = require("core/path")
 
 _G.name = script.name

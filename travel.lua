@@ -1,4 +1,5 @@
 --require("core/debug")
+require("core/StatShine/StatShine")
 local path = require("core/path")
 local options = require("core/options")
 local arr = require("core/util/array")

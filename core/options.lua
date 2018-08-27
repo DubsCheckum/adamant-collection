@@ -64,6 +64,7 @@ end
 --- Find the nearest matching string using the Levenshtein distance.
 -- You should check for exact match first, as this function is expensive.
 -- TODO: rename this to something more appropriate.
+-- TODO: use Damerau-Levenshtein algorithm instead.
 -- @param str   The string to find the nearest to.
 -- @param words The table of words to compare to the str.
 -- @return      The string with the shortest Levenshtein distance to str.
